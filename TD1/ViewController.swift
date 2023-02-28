@@ -12,11 +12,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        var nb: Int = 0
-        
     }
-
-
+    
+    @IBOutlet weak var AfiicheLabel: UILabel!
+    
+    var nb: Int = 0
+    @IBAction func clickUo(_ sender: Any) {
+        nb += 1
+        AfiicheLabel.text = "Incrémentation de \(nb)"
+    }
 }
 
