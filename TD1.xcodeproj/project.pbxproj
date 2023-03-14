@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B0A28F29C0AAE6004CF46A /* ControllerPageJaune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A28E29C0AAE6004CF46A /* ControllerPageJaune.swift */; };
+		32B0A29129C0AE85004CF46A /* BlueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A29029C0AE85004CF46A /* BlueController.swift */; };
 		32B8AB2629AE2E7100509707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B8AB2529AE2E7100509707 /* AppDelegate.swift */; };
 		32B8AB2829AE2E7100509707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B8AB2729AE2E7100509707 /* SceneDelegate.swift */; };
 		32B8AB2A29AE2E7100509707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B8AB2929AE2E7100509707 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32B0A28E29C0AAE6004CF46A /* ControllerPageJaune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerPageJaune.swift; sourceTree = "<group>"; };
+		32B0A29029C0AE85004CF46A /* BlueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueController.swift; sourceTree = "<group>"; };
 		32B8AB2229AE2E7100509707 /* TD1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B8AB2529AE2E7100509707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32B8AB2729AE2E7100509707 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				32B8AB2E29AE2E7400509707 /* Assets.xcassets */,
 				32B8AB3029AE2E7400509707 /* LaunchScreen.storyboard */,
 				32B8AB3329AE2E7400509707 /* Info.plist */,
+				32B0A28E29C0AAE6004CF46A /* ControllerPageJaune.swift */,
+				32B0A29029C0AE85004CF46A /* BlueController.swift */,
 			);
 			path = TD1;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B0A28F29C0AAE6004CF46A /* ControllerPageJaune.swift in Sources */,
 				32B8AB2A29AE2E7100509707 /* ViewController.swift in Sources */,
+				32B0A29129C0AE85004CF46A /* BlueController.swift in Sources */,
 				32B8AB2629AE2E7100509707 /* AppDelegate.swift in Sources */,
 				32B8AB2829AE2E7100509707 /* SceneDelegate.swift in Sources */,
 			);
