@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6G-Xc-nkf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="182.7906976744186" y="-394.63519313304721"/>
+            <point key="canvasLocation" x="182" y="-381"/>
         </scene>
         <!--Page Jaune-->
         <scene sceneID="lXF-mS-CnF">
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZl-Yx-tSy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1700.9302325581396" y="-400.42918454935625"/>
+            <point key="canvasLocation" x="1307" y="-381"/>
         </scene>
         <!--Page JauneDeux-->
         <scene sceneID="jnH-CK-pRx">
@@ -118,11 +118,29 @@
                         <viewLayoutGuide key="safeArea" id="Gob-93-139"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Jaune" id="Jnt-98-oZp"/>
                     <navigationItem key="navigationItem" title="Page JauneDeux" id="u5P-EL-0rG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kn0-oN-gSM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-715" y="365"/>
+            <point key="canvasLocation" x="-1409" y="1138"/>
+        </scene>
+        <!--Violet-->
+        <scene sceneID="tjD-ZI-urU">
+            <objects>
+                <viewController id="Oyh-xf-b5D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hVQ-pe-nDI">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Kbp-zR-rUO"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <color key="tintColor" systemColor="systemPurpleColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Violet" id="tRR-Xj-FvU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8A-Sn-Gq6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="1138"/>
         </scene>
         <!--Accueil-->
         <scene sceneID="tne-QT-ifu">
@@ -223,7 +241,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="MBa-t7-fB5" kind="show" id="76I-Ma-92m"/>
+                                    <segue destination="wao-gL-ZBV" kind="show" id="76I-Ma-92m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -261,9 +279,45 @@
             </objects>
             <point key="canvasLocation" x="-1929.7674418604652" y="-380.47210300429185"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ltz-nR-PgJ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wao-gL-ZBV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ku9-8k-3sn"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3k0-3k-6V0">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MBa-t7-fB5" kind="relationship" relationship="viewControllers" id="hH0-8U-eFX"/>
+                        <segue destination="Oyh-xf-b5D" kind="relationship" relationship="viewControllers" id="rbq-4A-0cJ"/>
+                        <segue destination="I0U-Ow-uEx" kind="relationship" relationship="viewControllers" id="I4w-2g-aOP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLW-Qr-liI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716.35514018691583" y="364.79481641468686"/>
+        </scene>
+        <!--Vert-->
+        <scene sceneID="dN7-Hf-gYr">
+            <objects>
+                <viewController id="I0U-Ow-uEx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Tl-lu-gtd">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KEH-cp-LMF"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Vert" id="gsY-XX-l8n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZMM-7A-nh3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="209" y="1138"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xBY-iV-DNZ"/>
+        <segue reference="fG6-ZV-Nvw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
@@ -283,6 +337,9 @@
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
