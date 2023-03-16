@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // rembobine en arrière dirrèctement
+    // faut créer un bouton dans la view courant et le relier avec le bouton exit dans la barre en haut
+    @IBAction func rembobinePage(_ for : UIStoryboardSegue) {
+        print("transition retour en arrière")
+        
+    }
+    
     @IBOutlet weak var AfiicheLabel: UILabel!
     @IBOutlet weak var saisie: UITextField!
     @IBOutlet weak var AfficheResultat: UILabel!
@@ -74,3 +81,11 @@ class ViewController: UIViewController {
     }
     
 }
+
+
+
+/*
+ Note :
+ - embed in permet de créer le back sur les pages => click sur header page principale et chercher embed in
+ 
+*/
